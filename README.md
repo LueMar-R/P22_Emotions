@@ -1,6 +1,9 @@
 # P22_Emotions
 face detection, MTCNN, Custom CNN, facial expression recognition
 
+<center>
+!(intro)[intro.png]
+</center>
 
 ### Objectifs : 
 
@@ -22,14 +25,17 @@ Plusieurs tentatives on été faites pour la reconnaissance de l'expression faci
 
 On obtient un score final de 76%, ce qui semble plutôt bon compte tenu des disparités dans la répartition des images :<br>
 
+<center>
 ![plot](Capture.PNG)
+</center>
 
 En effet, On a une grosse majorité de "Happy", "Sad" et "Neutral", et très peu de "Disgust".
 
 La matrice de confusion obtenue reflète bien cette répartition :
 
+<center>
 ![cmat](confmatrix.png)
-
+</center>
 
 ### Résultats :
 
